@@ -78,10 +78,7 @@ function RegistrationForm() {
                   text="Female"
                   value="2"
                 />
-                <SelectItem
-                  text="Other"
-                  value="3"
-                />
+                 
               </Select>
             </div>
           </div>

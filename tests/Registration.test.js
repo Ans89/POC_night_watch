@@ -12,9 +12,20 @@ module.exports={
                 // .pause(3000)
                 // .assert.title('Registration Completed')
                 // .end();
-                .url('https://news.ycombinator.com/')
-                .waitForElementVisible('.hnname')
-                .assert.containsText(".hnname","Hacker News");
+                .url('https://ans89.github.io/POC_night_watch/')
+                .click('button[type=submit]')
+                .verify.title('Registration')
+                .waitForElementVisible('body',3000)
+                .waitForElementVisible('#txtFirstName',3000) 
+                .setValue('#txtFirstName','Anshu')
+                .setValue('#txtLastName','Choudhary')
+                .setValue('#txtMobile','9876766789')
+                .setValue('#txtEmail','anshu.choudhary@ibm.com')
+                .setValue('#txtDescription','Testing for Night Watch') 
+                .setValue('#ddlGender','option[value="1"]')
+                //.click('button[type=submit]')
+                .pause(10000) 
+                .end();
 
     }
 
