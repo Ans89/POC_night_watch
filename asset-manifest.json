@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/POC_night_watch/static/css/main.a65e0eb8.chunk.css",
-    "main.js": "/POC_night_watch/static/js/main.6a666578.chunk.js",
-    "main.js.map": "/POC_night_watch/static/js/main.6a666578.chunk.js.map",
+    "main.js": "/POC_night_watch/static/js/main.c3b3370a.chunk.js",
+    "main.js.map": "/POC_night_watch/static/js/main.c3b3370a.chunk.js.map",
     "runtime-main.js": "/POC_night_watch/static/js/runtime-main.1a31957e.js",
     "runtime-main.js.map": "/POC_night_watch/static/js/runtime-main.1a31957e.js.map",
     "static/js/2.fbdf8cef.chunk.js": "/POC_night_watch/static/js/2.fbdf8cef.chunk.js",
@@ -15,6 +15,6 @@
     "static/js/runtime-main.1a31957e.js",
     "static/js/2.fbdf8cef.chunk.js",
     "static/css/main.a65e0eb8.chunk.css",
-    "static/js/main.6a666578.chunk.js"
+    "static/js/main.c3b3370a.chunk.js"
   ]
 }
